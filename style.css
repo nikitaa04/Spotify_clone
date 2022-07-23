@@ -1,0 +1,133 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #191919;
+    color: #3bc42c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand img{
+    width: 160px;
+}
+
+
+
+nav{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    list-style-type: none;
+    height: 70px;
+    margin-bottom: 70px;
+    
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: centre;
+}
+
+.container{
+    min-height: 72vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: 15px 150px 20px 150px;
+    background-color: black;
+    padding-top: 15px;
+    padding-left: 25px;
+    border-radius: 15px;
+    border:solid grey 3px;
+    color: white;
+} 
+
+
+
+.songItemContainer{
+    margin-top: 30px;
+}
+
+.Item{
+    height: 110px;
+    padding: 8px 10px 6px;
+    display: flex;
+    background-color: #121212;
+    width:400px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+   
+}
+
+.Item:hover{
+    background-color: #232323;
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+   background-color: #100F0F;
+    margin-top: 30px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+.icons i{
+   cursor: pointer;
+}
+
+.buton{
+    margin-top: 15px;
+    margin-right: 100px;
+    
+}
+
+#progressbar{
+    width: 100vh;
+}
+
+
+
+.Item img{
+    width: 130px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.timespan{
+    padding: 8px;
+}
+
+.timespan span{
+    cursor: pointer;
+}
+
+.songinfo{
+    position: absolute;
+    left:21vw;
+    
+}
+
+
+
